@@ -1,0 +1,48 @@
+/* dropdowns */
+#selectchoice{
+    width: 75%;
+    float: right;
+}
+/* will be overwritten for second form, so only applies to train section */
+form{
+    
+        padding-left: 4%;
+        margin-top: 20px;
+}
+
+/* buttons that reset the forms */
+#resetButton, #HireButton{
+
+    background-color: rgb(74, 99, 236);
+    color: antiquewhite;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+/* the hire form */
+#hire{
+    padding-left: 4%;
+    margin-top: 20px;
+    }
+   
+
+    #Name, #Email, #Phone, #Location, #Text{
+        width: 50%;
+        padding: 6px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid rgb(46, 50, 56);
+      border-radius: 4px;
+    } 
+    textarea{
+        width: 50%;
+        padding: 6px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid;
+        border-color: rgb(46, 50, 56);
+      border-radius: 4px;
+    }
+    
