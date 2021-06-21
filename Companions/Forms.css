@@ -1,0 +1,36 @@
+form{
+padding-left: 4%;
+margin-top: 20px;
+}
+input{
+    width: 60%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(46, 50, 56);
+  border-radius: 4px;
+}
+textarea{
+    width: 60%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-color: rgb(46, 50, 56);
+  border-radius: 4px;
+}
+
+input:focus{
+    border: 3px solid rgb(46, 50, 56);
+}
+textarea:focus{
+    border: 3px solid rgb(46, 50, 56);
+}
+
+#ResetButton{
+  width: 9%;
+  background-color: rgb(74, 99, 236);
+  color: antiquewhite;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
