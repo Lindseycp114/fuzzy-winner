@@ -1,0 +1,51 @@
+
+
+
+figure img{
+    width: 70%;
+    margin: 30px auto 0px;
+    display: block;
+    border-style: ridge;
+    border-color: rgb(46, 50, 56);
+    border-width: 7px;
+    opacity: 0.7;
+}
+
+figure figcaption{
+    padding: 10px 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
