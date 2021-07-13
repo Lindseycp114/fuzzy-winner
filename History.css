@@ -9,6 +9,8 @@ html{
 
 
 
+
+
 /* Body Styles */
 body{
     background-color: antiquewhite;
@@ -104,21 +106,6 @@ p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer styles */
 
 footer{
@@ -172,3 +159,24 @@ nav#footerLinks a:link, nav#footerLinks a:visited {
 nav#footerLinks a:hover, nav#footerLinks a:active {
 	background-color: rgb(55, 60, 75);
 }
+
+
+/* small screens */
+@media (max-width: 991px){
+    
+    /* removed background image */
+    html{
+       background-image: none;
+    }
+
+    /* gets rid of space around the body and footer */
+    body header{
+        margin: 0px;
+    }
+    body{
+        width: auto;
+    }
+    footer{
+        margin: 20px 0px 0px 0px;
+    }
+ }

@@ -2,7 +2,9 @@ form{
 padding-left: 4%;
 margin-top: 20px;
 }
-input{
+
+/* each input specified so that it does not affect the button width */
+#Name, #Email, #Phone{
     width: 60%;
     padding: 6px 20px;
     margin: 8px 0;
@@ -28,7 +30,6 @@ textarea:focus{
 }
 
 #ResetButton{
-  width: 9%;
   background-color: rgb(74, 99, 236);
   color: antiquewhite;
   padding: 5px 10px;

@@ -29,7 +29,7 @@ form{
    
 
     #Name, #Email, #Phone, #Location, #Text{
-        width: 50%;
+        width: 60%;
         padding: 6px 20px;
         margin: 8px 0;
         box-sizing: border-box;
@@ -37,7 +37,7 @@ form{
       border-radius: 4px;
     } 
     textarea{
-        width: 50%;
+        width: 60%;
         padding: 6px 20px;
         margin: 8px 0;
         box-sizing: border-box;
