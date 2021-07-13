@@ -1,3 +1,4 @@
+/* makes all images squares to the sides */
 img{
     float: left;
     padding: 10px;
@@ -6,25 +7,16 @@ img{
     
     
 }
+/* names */
 h2{
     text-decoration: none;
     margin-bottom: 3px;
     font-weight: bold;
 }
 
+/* lines between members */
 hr{
     border-top: 3px double rgb(46, 50, 56);
     width: 80%;
     
 }
-/* hr:before {
-    background-color: #f38034;
-    border-radius: 50%;
-    content: " ";
-    height: 10px;
-    left: 50%;
-    margin-left: -5px;
-    position: absolute;
-    top: -5px;
-    width: 10px;
-} */
