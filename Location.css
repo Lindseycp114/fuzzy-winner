@@ -1,0 +1,43 @@
+
+/* spaces out the h1 from the h2 a bit more */
+h1{
+    margin-bottom: 7%;
+}
+
+/* styles for the images and captions */
+figure img{
+    width: 70%;
+    margin: 10px auto 0px;
+    display: block;
+    border-style: ridge;
+    border-color: rgb(46, 50, 56);
+    border-width: 7px;
+    opacity: 0.7;
+}
+
+figure figcaption{
+    padding: 10px 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+/* center all h2's and the area descriptions */
+h2, #description {
+    text-align: center;
+    text-decoration: none;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* styles h3's */
+h3{
+    margin: 7px 25px;
+    /* font-size: large; */
+}
+p{
+    width: 85%;
+    margin-left: 30px;
+   
+}
